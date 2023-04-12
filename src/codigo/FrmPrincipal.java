@@ -42,8 +42,8 @@ public class FrmPrincipal {
                         case ERROR:
                             resultado += "Simbolo no definido\n";
                             break;
-                        case Identificador: case Numero: case Reservadas:
-                            resultado += lexer.lexeme + ": Es un " + tokens + "\n";
+                        case Entero: case Float:
+                            resultado += lexer.lexeme + ": Es " + tokens + "\n";
                             break;
                         default:
                             resultado += "Token: " + tokens + "\n";

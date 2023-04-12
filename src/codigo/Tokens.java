@@ -9,6 +9,8 @@ public enum Tokens {
     Division,
     Identificador,
     Numero,
+    Entero,
+    Float,
     PuntoDecimal,
     Parentesis,
     ERROR
