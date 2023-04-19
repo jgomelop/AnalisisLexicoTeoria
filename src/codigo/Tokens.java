@@ -12,6 +12,8 @@ public enum Tokens {
     Entero,
     Float,
     PuntoDecimal,
+    ParentesisApertura,
+    ParentesisCierre,
     Parentesis,
     ERROR
 }

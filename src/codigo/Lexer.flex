@@ -15,8 +15,8 @@ espacio=[ ,\t,\r,\n]+
 "-" {return Resta;}
 "*" {return Multiplicacion;}
 "/" {return Division;}
-"(" {return Parentesis;}
-")" {return Parentesis;}
+"(" {return ParentesisApertura;}
+")" {return ParentesisCierre;}
 ("(-"{D}+")")|
 {D}+ {lexeme=yytext(); return Entero;}
 ("(-"{D}+"."{D}+")")|
